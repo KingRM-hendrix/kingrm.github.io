@@ -1,5 +1,26 @@
-main {
+html, body {
   font-family: "Uncial Antiqua", system-ui;
   font-weight: 400;
   font-style: normal;
+  display: block;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+   background-color: #b0c4de;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+   background-color: #b0c4de;
+}
+
+.title {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 20px 0;
+    background-color: #b0c4de;
 }
