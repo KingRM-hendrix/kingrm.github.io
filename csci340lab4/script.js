@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $.ajax({
         dataType: "json",
-        url: "https://cataas.com/doc.json",
+        url: "https://randomfox.ca/floof/",
         success: function(results) {
             if(results["url"].endsWith(".gif")) {
                 $(".cat").attr("src","images/blank.png");
