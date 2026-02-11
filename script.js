@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#switch-cat").click(function() {
+    $("#switch-dog").click(function() {
         $.ajax({
             dataType: "json",
             url: "https://random.dog/woof.json",
