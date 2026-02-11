@@ -19,8 +19,9 @@ $(document).ready(function() {
 
     $("#switch-catboy").click(function() {
         $.ajax({
-            dataType: "json",
             url: "https://nekos.best/api/v2/neko",
+            method: "GET",
+            dataType: "json",
             success: function(results) {
                 console.log(results["url"]);
                 if (results["url"].endsWith(".mp4")) {
