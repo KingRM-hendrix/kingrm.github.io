@@ -17,7 +17,7 @@ $(document).ready(function() {
         })
     })
 
-    $("#switch-catboy").click(function() {
+    $("#switch-catgirl").click(function() {
         $.ajax({
             url: "https://nekos.best/api/v2/neko",
             method: "GET",
@@ -25,9 +25,9 @@ $(document).ready(function() {
             success: function(results) {
                 console.log(results.results[0].url);
                 if (results.results[0].url.endsWith(".mp4")) {
-                 $('#catboy').attr("src", "images/blank.png");
+                 $('#catgirl').attr("src", "images/blank.png");
                 } else {
-                    $('#catboy').attr("src", results.results[0].url);
+                    $('#catgirl').attr("src", results.results[0].url);
                 }
       },
       error: function(xhr,status,error) {
