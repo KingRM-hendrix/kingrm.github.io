@@ -23,11 +23,11 @@ $(document).ready(function() {
             method: "GET",
             dataType: "json",
             success: function(results) {
-                console.log(results["url"]);
-                if (results["url"].endsWith(".mp4")) {
+                console.log(results.results[0].url);
+                if (results.results[0].url.endsWith(".mp4")) {
                  $('#catboy').attr("src", "images/blank.png");
                 } else {
-                    $('#catboy').attr("src", results["url"]);
+                    $('#catboy').attr("src", results.results[0].url);
                 }
       },
       error: function(xhr,status,error) {
