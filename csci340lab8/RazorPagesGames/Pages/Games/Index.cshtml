@@ -1,4 +1,4 @@
-@page
+@page "{searchString?}"
 @model RazorPagesGames.Pages_Games.IndexModel
 
 @{
@@ -10,6 +10,17 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+
+<form>
+    <p>
+        <select asp-for="MovieGenre" asp-items="Model.Genres">
+            <option value="">All</option>
+        </select>
+        <label>Title: <input type="text" asp-for="SearchString" /></label>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
 <table class="table">
     <thead>
         <tr>
@@ -24,6 +35,12 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Game[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].Rating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].Developer)
             </th>
             <th></th>
         </tr>
@@ -44,10 +61,17 @@
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Developer)
+            </td>
+            <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
             </td>
+            
         </tr>
 }
     </tbody>
