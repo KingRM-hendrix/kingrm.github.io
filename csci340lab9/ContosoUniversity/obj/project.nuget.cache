@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zxQL+PPLlxI=",
+  "dgSpecHash": "b1f++yStsc0=",
   "success": true,
-  "projectFilePath": "c:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\ContosoUniversity.csproj",
+  "projectFilePath": "C:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\ContosoUniversity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rayde\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\rayde\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

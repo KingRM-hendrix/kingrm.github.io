@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\ContosoUniversity.csproj": {}
+    "C:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\ContosoUniversity.csproj": {}
   },
   "projects": {
-    "c:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\ContosoUniversity.csproj": {
+    "C:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\ContosoUniversity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\ContosoUniversity.csproj",
+        "projectUniqueName": "C:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\ContosoUniversity.csproj",
         "projectName": "ContosoUniversity",
-        "projectPath": "c:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\ContosoUniversity.csproj",
+        "projectPath": "C:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\ContosoUniversity.csproj",
         "packagesPath": "C:\\Users\\rayde\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\obj\\",
+        "outputPath": "C:\\Users\\rayde\\website\\csci340lab9\\ContosoUniversity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rayde\\AppData\\Roaming\\NuGet\\NuGet.Config"

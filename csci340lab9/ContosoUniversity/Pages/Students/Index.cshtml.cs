@@ -24,6 +24,7 @@ namespace ContosoUniversity.Pages.Students
         public string DateSort { get; set; }
         public string CurrentFilter { get; set; }
         public string CurrentSort { get; set; }
+        public string AgeSort { get; set; }
 
         public PaginatedList<Student> Students { get; set; }
 

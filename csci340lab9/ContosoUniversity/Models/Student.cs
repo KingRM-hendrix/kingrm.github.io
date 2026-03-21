@@ -30,6 +30,8 @@ namespace ContosoUniversity.Models
             }
         }
 
+        public int Age { get; set; }
+
         public ICollection<Enrollment> Enrollments { get; set; }
     }
 }
